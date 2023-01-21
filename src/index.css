@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Karla", sans-serif;
+  background-color: rgb(51, 51, 51);
+}
+
+.joke-card {
+  background-color: rgb(70, 69, 69);
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+  color: rgb(70, 69, 69);
+  margin: auto;
+}
+.joke-card>p {
+  color: white;
+}
+
+.joke-card:hover {
+  color: white;
+}
+
+.jokes-layout {
+  display: flex;
+  padding: 10px;
 }
