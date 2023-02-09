@@ -12,15 +12,8 @@ body {
   border-radius: 4px;
   padding: 5px;
   width: 200px;
-  color: rgb(70, 69, 69);
+  color: white;
   margin: auto;
-}
-.joke-card>p {
-  color: white;
-}
-
-.joke-card:hover {
-  color: white;
 }
 
 .jokes-layout {
