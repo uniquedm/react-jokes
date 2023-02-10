@@ -20,3 +20,25 @@ body {
   display: flex;
   padding: 10px;
 }
+
+.joke-button {
+  border-radius: 5px;
+  background-color: gray;
+  color: white;
+  border: 0px;
+  padding: 5%;
+  justify-items: center;
+}
+
+.button-icon {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  height: 20px;
+  width: 20px;
+}
+
+.punchline-div {
+  justify-items: center;
+  display: flex;
+  justify-content: center;
+}
