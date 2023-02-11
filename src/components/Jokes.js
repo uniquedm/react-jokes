@@ -3,7 +3,7 @@ import Hide from "../images/hide.png"
 import Show from "../images/show.png"
 
 export default function Joke({setup, punchline}) {
-    let [displayPunchline, setDisplay] = React.useState(true)
+    let [displayPunchline, setDisplay] = React.useState(false)
 
     function togglePunchline() {
         setDisplay(prevValue => !prevValue)
@@ -19,7 +19,7 @@ export default function Joke({setup, punchline}) {
     return (
         <div className="joke-card" onClick={togglePunchline}>
             <p>{setup}</p>
-            {displayPunchline && <h5>{punchline}</h5>}
+            {displayPunchline && <p className="punchline-text">{punchline}</p>}
             <div className="punchline-div">
             <button className="joke-button">
             <div>
